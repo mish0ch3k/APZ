@@ -96,3 +96,5 @@ Linux або WSL
 GCC
 gdb, gstack або pstack
 binutils (для nm, size, objdump)
+
+![alt text](image.png)
