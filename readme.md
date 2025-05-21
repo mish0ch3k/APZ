@@ -180,4 +180,4 @@ newptr = realloc(ptr, 500*sizeof(struct sbar));
 Використання:
 ```gcc -g -o task8 task8.c```
 ```sudo apt  install valgrind```
-```valgrind --leak-check=full ./leak```
+```valgrind --leak-check=full ./task8```
