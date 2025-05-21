@@ -103,37 +103,37 @@ binutils (для nm, size, objdump)
 ## 3.1 
 Запустіть Docker-контейнер і поекспериментуйте з максимальним лімітом ресурсів відкритих файлів. Для цього виконайте команди у вказаному порядку: $ ulimit -n $ ulimit -aS | grep "open files" $ ulimit -aH | grep "open files" $ ulimit -n 3000 $ ulimit -aS | grep "open files" $ ulimit -aH | grep "open files" $ ulimit -n 3001 $ ulimit -n 2000 $ ulimit -n $ ulimit -aS | grep "open files" $ ulimit -aH | grep "open files" $ ulimit -n 3000
 
-![alt text](image.png)
+![alt text](.assets/image.png)
 
 ## 3.2
-![alt text](image-1.png)
+![alt text](.assets/image-1.png)
 
 ## 3.3 
 Напишіть програму, що імітує кидання шестигранного кубика. Імітуйте кидки, результати записуйте у файл, для якого попередньо встановлено обмеження на його максимальний розмір (max file size). Коректно обробіть ситуацію перевищення ліміту.
-![alt text](image-5.png)
+![alt text](.assets/image-5.png)
 
 ## 3.4
 Напишіть програму, що імітує лотерею, вибираючи 7 різних цілих чисел у діапазоні від 1 до 49 і ще 6 з 36. Встановіть обмеження на час ЦП (max CPU time) і генеруйте результати вибору чисел (7 із 49, 6 із 36). Обробіть ситуацію, коли ліміт ресурсу вичерпано.
-![alt text](image-4.png)
+![alt text](.assets/image-4.png)
 
 ## 3.5 
 Напишіть програму для копіювання одного іменованого файлу в інший. Імена файлів передаються у вигляді аргументів.
 Перший файл:
-![alt text](image-8.png)
+![alt text](.assets/image-8.png)
 Виконуємо програму:
-![alt text](image-6.png)
+![alt text](.assets/image-6.png)
 Другий файл:
-![alt text](image-7.png)
+![alt text](.assets/image-7.png)
 
 ## 3.6 
 Напишіть програму, що демонструє використання обмеження (max stack segment size). Підказка: рекурсивна програма активно використовує стек
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](.assets/image-9.png)
+![alt text](.assets/image-10.png)
 
 ## 3.7
 Встановити обмеження на кількість відкритих сокетів (ulimit -n) та запустити серверну програму.
 bash ```ulimit -n 100```
-![alt text](image-11.png)
+![alt text](.assets/image-11.png)
 
 ```
 for i in {1..150}; do
@@ -141,7 +141,7 @@ for i in {1..150}; do
 done
 ```
 
-![alt text](image-12.png)
+![alt text](.assets/image-12.png)
 
 # Практична 4 (pr4)
 ## Завдання 4.1 (task1.c)
@@ -175,7 +175,7 @@ newptr = realloc(ptr, 500*sizeof(struct sbar));
 
 ## Завдання 4.8 (task8.c)
 2 Напишіть програму для імітації витоку пам’яті та засічіть її за допомогою valgrind.
-![alt text](image-13.png)
+![alt text](.assets/image-13.png)
 
 Використання:
 ```gcc -g -o task8 task8.c```
